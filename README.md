@@ -23,7 +23,7 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
-## Lastly. After moving around the map. If you want to save the map in .pgm
+## Lastly. After moving around the map. If you want to save the map in .pgm & .yml
 ```ruby
 rosrun map_server map_saver -f ~/map
 ```
