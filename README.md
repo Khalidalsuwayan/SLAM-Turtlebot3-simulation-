@@ -9,4 +9,11 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 ```
-## S
+## In order to control a TurtleBot3 with a keyboard. Open new terminal.
+```ruby
+export TURTLEBOT3_MODEL=burger
+```
+```ruby
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+
