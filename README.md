@@ -16,4 +16,12 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+## Then
+```ruby
+export TURTLEBOT3_MODEL=burger
+```
+```ruby
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+
 
