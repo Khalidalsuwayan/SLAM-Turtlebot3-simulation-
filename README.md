@@ -5,5 +5,7 @@
 #### The used world is Turtlebot3 House and the used turtlebot model is burger.
 ```ruby
 export TURTLEBOT3_MODEL=burger
+```
+```ruby
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
 ```
