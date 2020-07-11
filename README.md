@@ -16,12 +16,13 @@ export TURTLEBOT3_MODEL=burger
 ```ruby
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-## Then
+## Thirdly, open new terminal and export the robot model and run the SLAM node in RViz.
 ```ruby
 export TURTLEBOT3_MODEL=burger
 ```
 ```ruby
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
+## Lastly
 
 
